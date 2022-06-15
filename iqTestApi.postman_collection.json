@@ -1,0 +1,86 @@
+{
+	"info": {
+		"_postman_id": "1d733820-d324-4c44-aced-628f1b79b8c2",
+		"name": "iqTestApi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Search",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "default"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"q\": \"un\" \n}"
+				},
+				"url": {
+					"raw": "https://apitest.iqfulfillment.com/v1/test/search",
+					"protocol": "https",
+					"host": [
+						"apitest",
+						"iqfulfillment",
+						"com"
+					],
+					"path": [
+						"v1",
+						"test",
+						"search"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Dashboard",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "default"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://apitest.iqfulfillment.com/v1/test/dashboard",
+					"protocol": "https",
+					"host": [
+						"apitest",
+						"iqfulfillment",
+						"com"
+					],
+					"path": [
+						"v1",
+						"test",
+						"dashboard"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

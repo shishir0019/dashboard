@@ -2,16 +2,25 @@
   "name": "dashboard",
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
     "build": "vite build",
+    "dev": "vite",
     "preview": "vite preview --port 5050"
   },
   "dependencies": {
+    "chart.js": "^3.8.0",
+    "feather-icons": "^4.29.0",
+    "lodash": "^4.17.21",
     "vue": "^3.2.33",
-    "vue-router": "^4.0.14"
+    "vue-chart-3": "^3.1.8",
+    "vue-router": "^4.0.14",
+    "vuex": "^4.0.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.3.1",
+    "@vue/cli-plugin-vuex": "~5.0.0",
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.0.24",
     "vite": "^2.9.5"
   }
 }
